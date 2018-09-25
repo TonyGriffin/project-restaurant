@@ -1,0 +1,52 @@
+body {
+  background-color: orange;
+  margin: auto;
+}
+h1 {
+  text-decoration: underline overline;
+  color: rgb(220,20,60);
+}
+
+.locationName {
+  background-color: rgb(255,160,122);
+  color: rgb(0,255,255);
+  float: left;
+  margin-top: 20px;
+}
+
+.locationAddress {
+  background-color: rgb(255,140,0);
+  color:rgb(176,196,222);
+  clear: both;
+}
+
+.restaurants__container {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name__price:hover {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  transform: scale(1.5);
+}
+
+
+.menuName {
+  background-color:rgb(255,99,71);
+}
+
+.menuPrice{
+  background-color: rgb(255,69,0);
+}
+
+.locationGif:hover{
+  transform: scale(0.7);
+}
